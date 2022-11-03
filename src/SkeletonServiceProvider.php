@@ -17,7 +17,7 @@ class SkeletonServiceProvider extends PackageServiceProvider
     public function configurePackage(Package $package): void
     {
         $package
-            ->name('skeleton')
+            ->name('calendar')
             ->hasConfigFile()
             ->hasViews()
             ->hasTranslations()
